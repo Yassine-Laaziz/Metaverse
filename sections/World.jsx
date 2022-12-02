@@ -43,32 +43,7 @@ const World = () => (
           <img src="people-03.png" alt="people" className="w-full h-full" />
         </div>
         {/* cards */}
-        <div className="hidden md:flex text-white absolute bottom-[10%] border-8 border-gray-300/25 rounded-[25px] bg-[url(/planet-02.png)] bg-cover h-[150px] p-2 items-end">
-          <div className="h-[65%] flex flex-col justify-between">
-            <div className="relative text-sm w-fit h-8">
-              <div className="relative h-[100%] w-16 inline-block">
-                <img
-                  src="people-01.png"
-                  alt="people"
-                  className="w-8 h-8 absolute"
-                />
-                <img
-                  src="people-02.png"
-                  alt="people"
-                  className="w-8 h-8 absolute left-1/4"
-                />
-                <img
-                  src="people-03.png"
-                  alt="people"
-                  className="w-8 h-8 absolute left-1/2"
-                />
-              </div>
-              <span className="align-super mx-4">264+ has joined</span>
-            </div>
-            <p className="text-center">The Upside Down</p>
-          </div>
-        </div>
-        <div className="hidden md:flex text-white absolute top-[8%] right-[5%] border-8 border-gray-300/25 rounded-[25px] bg-[url(/planet-02.png)] bg-cover h-[150px] p-2 items-end">
+        <div className="hidden md:flex text-white absolute top-[8%] right-[5%] border-8 border-gray-300/25 rounded-[25px] bg-[url(/planet-06.png)] bg-cover h-[150px] p-2 items-end">
           <div className="h-[65%] flex flex-col justify-between">
             <div className="relative text-sm w-fit h-8">
               <div className="relative h-[100%] w-16 inline-block">
@@ -91,6 +66,31 @@ const World = () => (
               <span className="align-super mx-4">264+ has joined</span>
             </div>
             <p className="text-center">Paradise Island</p>
+          </div>
+        </div>
+        <div className="hidden md:flex text-white absolute bottom-[10%] border-8 border-gray-300/25 rounded-[25px] bg-[url(/planet-07.png)] bg-cover h-[150px] p-2 items-end">
+          <div className="h-[65%] flex flex-col justify-between">
+            <div className="relative text-sm w-fit h-8">
+              <div className="relative h-[100%] w-16 inline-block">
+                <img
+                  src="people-01.png"
+                  alt="people"
+                  className="w-8 h-8 absolute"
+                />
+                <img
+                  src="people-02.png"
+                  alt="people"
+                  className="w-8 h-8 absolute left-1/4"
+                />
+                <img
+                  src="people-03.png"
+                  alt="people"
+                  className="w-8 h-8 absolute left-1/2"
+                />
+              </div>
+              <span className="align-super mx-4">264+ has joined</span>
+            </div>
+            <p className="text-center">The Upside Down</p>
           </div>
         </div>
       </motion.div>
